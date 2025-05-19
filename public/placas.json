@@ -1,0 +1,965 @@
+{
+    "placas": [
+      {
+        "id": 1,
+        "name": "Parada Obrigatória",
+        "image": "https://aimore.net/placas/R-1.jpg",
+        "alt1": "Pare Imediatamente",
+        "alt2": "Obrigação de Parar",
+        "alt3": "Parada Total Obrigatória"
+      },
+      {
+        "id": 2,
+        "name": "Dê Preferencia",
+        "image": "https://aimore.net/placas/R-2.jpg",
+        "alt1": "Ceda a Passagem",
+        "alt2": "Deixe Passar",
+        "alt3": "Priorize o Outro"
+      },
+      {
+        "id": 3,
+        "name": "Sentido Proibido",
+        "image": "https://aimore.net/placas/R-3.jpg",
+        "alt1": "Entrada Proibida",
+        "alt2": "Proibido Avançar",
+        "alt3": "Não Entre"
+      },
+      {
+        "id": 4,
+        "name": "Proibido Virar à Esquerda",
+        "image": "https://aimore.net/placas/R-4a.jpg",
+        "alt1": "Sem Conversão à Esquerda",
+        "alt2": "Giro à Esquerda Proibido",
+        "alt3": "Proibida a Curva à Esquerda"
+      },
+      {
+        "id": 5,
+        "name": "Proibido Virar à Direita",
+        "image": "https://aimore.net/placas/R-4b.jpg",
+        "alt1": "Sem Conversão à Direita",
+        "alt2": "Giro à Direita Proibido",
+        "alt3": "Proibida a Curva à Direita"
+      },
+      {
+        "id": 6,
+        "name": "Proibido Retornar à Esquerda",
+        "image": "https://aimore.net/placas/R-5a.jpg",
+        "alt1": "Retorno à Esquerda Proibido",
+        "alt2": "Sem Retorno para Esquerda",
+        "alt3": "Curva de Retorno Proibida"
+      },
+      {
+        "id": 7,
+        "name": "Proibido Retornar à Direita",
+        "image": "https://aimore.net/placas/R-5b.jpg",
+        "alt1": "Retorno à Direita Proibido",
+        "alt2": "Sem Retorno para Direita",
+        "alt3": "Curva de Retorno à Direita Proibida"
+      },
+      {
+        "id": 8,
+        "name": "Proibido Estacionar",
+        "image": "https://aimore.net/placas/R-6a.jpg",
+        "alt1": "Estacionamento Não Permitido",
+        "alt2": "Proibição de Parar",
+        "alt3": "Sem Parada Permitida"
+      },
+      {
+        "id": 9,
+        "name": "Estacionamento Regulamentado",
+        "image": "https://aimore.net/placas/R-6b.jpg",
+        "alt1": "Estacionamento Permitido com Regras",
+        "alt2": "Área de Estacionamento Controlado",
+        "alt3": "Zona de Estacionamento Regulada"
+      },
+      {
+        "id": 10,
+        "name": "Proibido Parar e Estacionar",
+        "image": "https://aimore.net/placas/R-6c.jpg",
+        "alt1": "Sem Paradas ou Estacionamentos",
+        "alt2": "Proibição Total de Parada",
+        "alt3": "Proibido Ficar Parado"
+      },
+      {
+        "id": 11,
+        "name": "Proibido Ultrapassar",
+        "image": "https://aimore.net/placas/R-7.jpg",
+        "alt1": "Ultrapassagem Não Permitida",
+        "alt2": "Proibição de Ultrapassagem",
+        "alt3": "Proibido Passar Veículo à Frente"
+      },
+      {
+        "id": 12,
+        "name": "Proibida Mudança da Esquerda para Direita",
+        "image": "https://aimore.net/placas/R-8a.jpg",
+        "alt1": "Troca de Faixa Proibida (Esq. p/ Dir.)",
+        "alt2": "Sem Mudança de Pista para Direita",
+        "alt3": "Faixa Direita Não Permitida"
+      },
+      {
+        "id": 13,
+        "name": "Proibida Mudança da Direita para Esquerda",
+        "image": "https://aimore.net/placas/R-8b.jpg",
+        "alt1": "Troca de Faixa Proibida (Dir. p/ Esq.)",
+        "alt2": "Sem Mudança de Pista para Esquerda",
+        "alt3": "Faixa Esquerda Não Permitida"
+      },
+      {
+        "id": 14,
+        "name": "Proibido Transito de Caminhões",
+        "image": "https://aimore.net/placas/R-9.jpg",
+        "alt1": "Entrada de Caminhões Proibida",
+        "alt2": "Caminhões Não Permitidos",
+        "alt3": "Tráfego de Caminhões Proibido"
+      },
+      {
+        "id": 15,
+        "name": "Proibido Transito de Veiculos Automotores",
+        "image": "https://aimore.net/placas/R-10.jpg",
+        "alt1": "Automóveis Proibidos",
+        "alt2": "Veículos a Motor Não Permitidos",
+        "alt3": "Sem Entrada para Veículos Motorizados"
+      },
+      {
+        "id": 16,
+        "name": "Proibido Transito de Veiculos de Tração Animal",
+        "image": "https://aimore.net/placas/R-11.jpg",
+        "alt1": "Sem Entrada para Carroças",
+        "alt2": "Tráfego Animal Proibido",
+        "alt3": "Veículo com Tração Animal Proibido"
+      },
+      {
+        "id": 17,
+        "name": "Proibido Transito de Bicicletas",
+        "image": "https://aimore.net/placas/R-12.jpg",
+        "alt1": "Sem Entrada para Ciclistas",
+        "alt2": "Bicicletas Não Permitidas",
+        "alt3": "Proibido Uso de Bike"
+      },
+      {
+        "id": 18,
+        "name": "Proibido Transito de Tratores e Máquinas de Obras",
+        "image": "https://aimore.net/placas/R-13.jpg",
+        "alt1": "Máquinas Pesadas Proibidas",
+        "alt2": "Tratores Sem Permissão",
+        "alt3": "Equipamentos de Obra Não Permitidos"
+      },
+      {
+        "id": 19,
+        "name": "Peso Bruto Total Máximo",
+        "image": "https://aimore.net/placas/R-14.jpg",
+        "alt1": "Limite de Peso Total",
+        "alt2": "Peso Máximo Permitido",
+        "alt3": "Carga Total Restrita"
+      },
+      {
+        "id": 20,
+        "name": "Altura Máxima Permitida",
+        "image": "https://aimore.net/placas/R-15.jpg",
+        "alt1": "Limite de Altura",
+        "alt2": "Altura Restrita",
+        "alt3": "Máxima Elevação Permitida"
+      },
+      {
+        "id": 21,
+        "name": "Largura Máxima Permitida",
+        "image": "https://aimore.net/placas/R-16.jpg",
+        "alt1": "Limite de Largura",
+        "alt2": "Máxima Largura Permitida",
+        "alt3": "Veículo Largo Proibido"
+      },
+      {
+        "id": 22,
+        "name": "Peso Máximo Permitido por Eixo",
+        "image": "https://aimore.net/placas/R-17.jpg",
+        "alt1": "Limite de Peso por Eixo",
+        "alt2": "Peso Restrito em Cada Eixo",
+        "alt3": "Peso Axial Máximo"
+      },
+      {
+        "id": 23,
+        "name": "Comprimento Máximo Permitido",
+        "image": "https://aimore.net/placas/R-18.jpg",
+        "alt1": "Tamanho Máximo do Veículo",
+        "alt2": "Extensão Máxima Permitida",
+        "alt3": "Veículo Longo Proibido"
+      },
+      {
+        "id": 24,
+        "name": "Velocidade Máxima Permitida",
+        "image": "https://aimore.net/placas/R-19.jpg",
+        "alt1": "Limite de Velocidade",
+        "alt2": "Velocidade Restrita",
+        "alt3": "Máxima Permitida na Via"
+      },
+      {
+        "id": 25,
+        "name": "Proibido Acionar Buzina ou Sinal de Socorro",
+        "image": "https://aimore.net/placas/R-20.jpg",
+        "alt1": "Buzina Proibida",
+        "alt2": "Sem Sinal Sonoro",
+        "alt3": "Evite Ruídos"
+      },
+      {
+        "id": 26,
+        "name": "Alfândega",
+        "image": "https://aimore.net/placas/R-21.jpg",
+        "alt1": "Área de controle aduaneiro",
+        "alt2": "Posto alfandegário à frente",
+        "alt3": "Controle fiscal obrigatório"
+      },
+      {
+        "id": 27,
+        "name": "Uso Obrigatório de Corrente",
+        "image": "https://aimore.net/placas/R-22.jpg",
+        "alt1": "Obrigatório uso de correntes nos pneus",
+        "alt2": "Corrente nos pneus exigida na via",
+        "alt3": "Trânsito permitido apenas com corrente"
+      },
+      {
+        "id": 28,
+        "name": "Conserve-se à direita",
+        "image": "https://aimore.net/placas/R-23.jpg",
+        "alt1": "Mantenha-se à faixa da direita",
+        "alt2": "Utilize a pista direita",
+        "alt3": "Permaneça à direita"
+      },
+      {
+        "id": 29,
+        "name": "Sentido de Circulação da Via",
+        "image": "https://aimore.net/placas/R-24a.jpg",
+        "alt1": "Via com direção obrigatória",
+        "alt2": "Sentido único nesta via",
+        "alt3": "Direção obrigatória adiante"
+      },
+      {
+        "id": 30,
+        "name": "Passagem Obrigatória",
+        "image": "https://aimore.net/placas/R-24b.jpg",
+        "alt1": "Trânsito deve seguir por aqui",
+        "alt2": "Ponto de passagem obrigatório",
+        "alt3": "Obrigatório passar neste local"
+      },
+      {
+        "id": 31,
+        "name": "Vire à Esquerda",
+        "image": "https://aimore.net/placas/R-25a.jpg",
+        "alt1": "Conversão obrigatória à esquerda",
+        "alt2": "Siga apenas à esquerda",
+        "alt3": "Apenas direção à esquerda permitida"
+      },
+      {
+        "id": 32,
+        "name": "Vire à Direita",
+        "image": "https://aimore.net/placas/R-25b.jpg",
+        "alt1": "Conversão obrigatória à direita",
+        "alt2": "Siga apenas à direita",
+        "alt3": "Apenas direção à direita permitida"
+      },
+      {
+        "id": 33,
+        "name": "Siga em Frente ou à Esquerda",
+        "image": "https://aimore.net/placas/R-25c.jpg",
+        "alt1": "Direções permitidas: frente ou esquerda",
+        "alt2": "Siga reto ou vire à esquerda",
+        "alt3": "Escolha seguir em frente ou à esquerda"
+      },
+      {
+        "id": 34,
+        "name": "Siga em Frente ou à Direita",
+        "image": "https://aimore.net/placas/R-25d.jpg",
+        "alt1": "Direções permitidas: frente ou direita",
+        "alt2": "Siga reto ou vire à direita",
+        "alt3": "Escolha seguir em frente ou à direita"
+      },
+      {
+        "id": 35,
+        "name": "Siga em Frente",
+        "image": "https://aimore.net/placas/R-26.jpg",
+        "alt1": "Trânsito permitido apenas em frente",
+        "alt2": "Somente seguir reto",
+        "alt3": "Via de direção única para frente"
+      },
+      {
+        "id": 36,
+        "name": "Ônibus, Caminhões e Veículos de Grande Porte Mantenha à Direita",
+        "image": "https://aimore.net/placas/R-27.jpg",
+        "alt1": "Veículos pesados devem manter-se à direita",
+        "alt2": "Obrigatório tráfego de grandes veículos à direita",
+        "alt3": "Ônibus e caminhões à faixa da direita"
+      },
+      {
+        "id": 37,
+        "name": "Duplo Sentido de Direção",
+        "image": "https://aimore.net/placas/R-28.jpg",
+        "alt1": "Trânsito nos dois sentidos",
+        "alt2": "Via de mão dupla",
+        "alt3": "Circulação em ambos os sentidos"
+      },
+      {
+        "id": 38,
+        "name": "Proibido Transito de Pedestre",
+        "image": "https://aimore.net/placas/R-29.jpg",
+        "alt1": "Área restrita a pedestres",
+        "alt2": "Pedestres não devem circular",
+        "alt3": "Trânsito de pedestres é proibido"
+      },
+      {
+        "id": 39,
+        "name": "Pedestre Ande pela Direita",
+        "image": "https://aimore.net/placas/R-31.jpg",
+        "alt1": "Caminhe pela direita da via",
+        "alt2": "Pedestres mantenham-se à direita",
+        "alt3": "Trânsito de pedestres à direita"
+      },
+      {
+        "id": 40,
+        "name": "Pedestre Ande pela Esquerda",
+        "image": "https://aimore.net/placas/R-30.jpg",
+        "alt1": "Caminhe pela esquerda da via",
+        "alt2": "Pedestres mantenham-se à esquerda",
+        "alt3": "Trânsito de pedestres à esquerda"
+      },
+      {
+        "id": 41,
+        "name": "Circulação Exclusiva de Ônibus",
+        "image": "https://aimore.net/placas/R-32.jpg",
+        "alt1": "Apenas ônibus pode circular",
+        "alt2": "Faixa exclusiva para ônibus",
+        "alt3": "Trânsito exclusivo de coletivos"
+      },
+      {
+        "id": 42,
+        "name": "Sentido de Direção na Rotatória",
+        "image": "https://aimore.net/placas/R-33.jpg",
+        "alt1": "Rotatória obrigatória à direita",
+        "alt2": "Siga o fluxo circular indicado",
+        "alt3": "Trânsito circular nesta direção"
+      },
+      {
+        "id": 43,
+        "name": "Circulação Exclusiva de Bicicleta",
+        "image": "https://aimore.net/placas/R-34.jpg",
+        "alt1": "Somente bicicletas permitidas",
+        "alt2": "Faixa exclusiva para ciclistas",
+        "alt3": "Trânsito exclusivo de bikes"
+      },
+      {
+        "id": 44,
+        "name": "Ciclista Transite à Esquerda",
+        "image": "https://aimore.net/placas/R-35a.jpg",
+        "alt1": "Ciclistas devem seguir pela esquerda",
+        "alt2": "Bicicletas à faixa esquerda",
+        "alt3": "Circulação de bikes à esquerda"
+      },
+      {
+        "id": 45,
+        "name": "Ciclista Transite à Direita",
+        "image": "https://aimore.net/placas/R-35b.jpg",
+        "alt1": "Ciclistas devem seguir pela direita",
+        "alt2": "Bicicletas à faixa direita",
+        "alt3": "Circulação de bikes à direita"
+      },
+      {
+        "id": 46,
+        "name": "Ciclista à Esquerda e Pedestre à Direita",
+        "image": "https://aimore.net/placas/R-36a.jpg",
+        "alt1": "Divisão de pista: bikes à esquerda, pedestres à direita",
+        "alt2": "Separação de fluxo entre ciclistas e pedestres",
+        "alt3": "Bicicletas à esquerda, pessoas à direita"
+      },
+      {
+        "id": 47,
+        "name": "Pedestre à Direita e Ciclista à Esquerda",
+        "image": "https://aimore.net/placas/R-36b.jpg",
+        "alt1": "Divisão de pista: pedestres à direita, bikes à esquerda",
+        "alt2": "Separação de fluxo: pessoas à direita",
+        "alt3": "Pedestres à direita, ciclistas à esquerda"
+      },
+      {
+        "id": 48,
+        "name": "Proibido Transito de Motocicletas, Motonetas e Ciclomotores",
+        "image": "https://aimore.net/placas/R-37.jpg",
+        "alt1": "Motocicletas e similares proibidos",
+        "alt2": "Sem trânsito de motos e ciclomotores",
+        "alt3": "Área restrita a veículos de duas rodas motorizados"
+      },
+      {
+        "id": 49,
+        "name": "Proibido Transito de Ônibus",
+        "image": "https://aimore.net/placas/R-38.jpg",
+        "alt1": "Coletivos não permitidos",
+        "alt2": "Trânsito de ônibus proibido",
+        "alt3": "Sem circulação de ônibus"
+      },
+      {
+        "id": 50,
+        "name": "Circulação Exclusiva de Caminhão",
+        "image": "https://aimore.net/placas/R-39.jpg",
+        "alt1": "Apenas caminhões podem trafegar",
+        "alt2": "Faixa exclusiva para caminhões",
+        "alt3": "Trânsito exclusivo de carga pesada"
+      },
+      {
+        "id": 51,
+        "name": "Proibido Transito de Carros de Mão",
+        "image": "https://aimore.net/placas/R-40.jpg",
+        "alt1": "Carrinhos de mão não permitidos",
+        "alt2": "Área restrita a transporte manual",
+        "alt3": "Sem circulação de carrinhos manuais"
+      },
+      {
+        "id": 52,
+        "name": "Curva Acentuada à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-1a.jpg",
+        "alt1": "Curva Perigosa à Esquerda",
+        "alt2": "Virada Brusca à Esquerda",
+        "alt3": "Curva Fechada no Sentido Anti-Horário"
+      },
+      {
+        "id": 53,
+        "name": "Curva Acentuada à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-1b.jpg",
+        "alt1": "Curva Perigosa à Direita",
+        "alt2": "Virada Brusca à Direita",
+        "alt3": "Curva Fechada no Sentido Horário"
+      },
+      {
+        "id": 54,
+        "name": "Curva à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-2a.jpg",
+        "alt1": "Virada Suave à Esquerda",
+        "alt2": "Desvio para o Lado Esquerdo",
+        "alt3": "Curva Moderada Anti-Horária"
+      },
+      {
+        "id": 55,
+        "name": "Curva à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-2b.jpg",
+        "alt1": "Virada Suave à Direita",
+        "alt2": "Desvio para o Lado Direito",
+        "alt3": "Curva Moderada Horária"
+      },
+      {
+        "id": 56,
+        "name": "Curva Sinuosa à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-3a.jpg",
+        "alt1": "Zigue-Zague à Esquerda",
+        "alt2": "Série de Curvas para Esquerda",
+        "alt3": "Trecho Sinistro Esquerdo"
+      },
+      {
+        "id": 57,
+        "name": "Curva Sinuosa à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-3b.jpg",
+        "alt1": "Zigue-Zague à Direita",
+        "alt2": "Série de Curvas para Direita",
+        "alt3": "Trecho Sinistro Direito"
+      },
+      {
+        "id": 58,
+        "name": "Curva Acentuada em S à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-4a.jpg",
+        "alt1": "Dupla Curva Fechada Esquerda",
+        "alt2": "S Invertido Acentuado",
+        "alt3": "Curvas em Sequência Fechada"
+      },
+      {
+        "id": 59,
+        "name": "Curva Acentuada em S à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-4b.jpg",
+        "alt1": "Dupla Curva Fechada Direita",
+        "alt2": "S Acentuado",
+        "alt3": "Curvas em Zigue-Zague Fechado"
+      },
+      {
+        "id": 60,
+        "name": "Curva em S à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-5a.jpg",
+        "alt1": "Dupla Curva Suave Esquerda",
+        "alt2": "S Invertido",
+        "alt3": "Sequência de Curvas Moderadas"
+      },
+      {
+        "id": 61,
+        "name": "Curva em S à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-5b.jpg",
+        "alt1": "Dupla Curva Suave Direita",
+        "alt2": "S Suave",
+        "alt3": "Zigue-Zague Moderado"
+      },
+      {
+        "id": 62,
+        "name": "Cruzamento de Vias",
+        "image": "https://aimore.net/placas/placa_de_transito_A-6.jpg",
+        "alt1": "Intersecção de Estradas",
+        "alt2": "Cruzamento de Tráfego",
+        "alt3": "Encontro de Vias"
+      },
+      {
+        "id": 63,
+        "name": "Via Lateral à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-7a.jpg",
+        "alt1": "Saída pela Esquerda",
+        "alt2": "Acesso Lateral Esquerdo",
+        "alt3": "Entroncamento à Esquerda"
+      },
+      {
+        "id": 64,
+        "name": "Via Lateral à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-7b.jpg",
+        "alt1": "Saída pela Direita",
+        "alt2": "Acesso Lateral Direito",
+        "alt3": "Entroncamento à Direita"
+      },
+      {
+        "id": 65,
+        "name": "Interseção em T",
+        "image": "https://aimore.net/placas/placa_de_transito_A-8.jpg",
+        "alt1": "Cruzamento em T",
+        "alt2": "Junção em Formato de T",
+        "alt3": "Terminal de Via"
+      },
+      {
+        "id": 66,
+        "name": "Bifurcação em Y",
+        "image": "https://aimore.net/placas/placa_de_transito_A-9.jpg",
+        "alt1": "Divisão em Y",
+        "alt2": "Separação de Vias em Y",
+        "alt3": "Junção em Garfo"
+      },
+      {
+        "id": 67,
+        "name": "Entroncamento Oblíquo à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-10a.jpg",
+        "alt1": "Junção Angular Esquerda",
+        "alt2": "Conexão Diagonal à Esquerda",
+        "alt3": "Via Inclinada à Esquerda"
+      },
+      {
+        "id": 68,
+        "name": "Entroncamento Oblíquo à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-10b.jpg",
+        "alt1": "Junção Angular Direita",
+        "alt2": "Conexão Diagonal à Direita",
+        "alt3": "Via Inclinada à Direita"
+      },
+      {
+        "id": 69,
+        "name": "Junções Sucessivas Contrárias 1° à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-11a.jpg",
+        "alt1": "Série de Entroncamentos Iniciando à Esquerda",
+        "alt2": "Vias Alternadas Esquerda-Direita",
+        "alt3": "Cruzamentos Sequenciais"
+      },
+      {
+        "id": 70,
+        "name": "Junções Sucessivas Contrárias 1° à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-11b.jpg",
+        "alt1": "Série de Entroncamentos Iniciando à Direita",
+        "alt2": "Vias Alternadas Direita-Esquerda",
+        "alt3": "Cruzamentos em Sequência Invertida"
+      },
+      {
+        "id": 71,
+        "name": "Interseção em Círculo",
+        "image": "https://aimore.net/placas/placa_de_transito_A-12a.jpg",
+        "alt1": "Rotatória à Frente",
+        "alt2": "Circular na Via",
+        "alt3": "Tráfego Giratório"
+      },
+      {
+        "id": 72,
+        "name": "Confluência à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-13a.jpg",
+        "alt1": "Via de Junção pela Esquerda",
+        "alt2": "Tráfego Fundindo à Esquerda",
+        "alt3": "Pista Convergente Esquerda"
+      },
+      {
+        "id": 73,
+        "name": "Confluência à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-13b.jpg",
+        "alt1": "Via de Junção pela Direita",
+        "alt2": "Tráfego Fundindo à Direita",
+        "alt3": "Pista Convergente Direita"
+      },
+      {
+        "id": 74,
+        "name": "Semáforo à Frente",
+        "image": "https://aimore.net/placas/placa_de_transito_A-14.jpg",
+        "alt1": "Sinalização Luminosa Adiante",
+        "alt2": "Farol de Trânsito Próximo",
+        "alt3": "Cruzamento Sinalizado"
+      },
+      {
+        "id": 75,
+        "name": "Parada Obrigatória à Frente",
+        "image": "https://aimore.net/placas/placa_de_transito_A-15.jpg",
+        "alt1": "Pare Adiante",
+        "alt2": "Sinal de Parada Próximo",
+        "alt3": "Placa de Stop à Vista"
+      },
+      {
+        "id": 76,
+        "name": "Bonde",
+        "image": "https://aimore.net/placas/placa_de_transito_A-16.jpg",
+        "alt1": "Trilhos de Bonde",
+        "alt2": "Passagem de VLT",
+        "alt3": "Tráfego de Elétricos"
+      },
+      {
+        "id": 77,
+        "name": "Pista Irregular",
+        "image": "https://aimore.net/placas/placa_de_transito_A-17.jpg",
+        "alt1": "Pavimento Danificado",
+        "alt2": "Estrada com Buracos",
+        "alt3": "Superfície Desnivelada"
+      },
+      {
+        "id": 78,
+        "name": "Saliência ou Lombada",
+        "image": "https://aimore.net/placas/placa_de_transito_A-18.jpg",
+        "alt1": "Redutor de Velocidade",
+        "alt2": "Lombada Física",
+        "alt3": "Elevação na Pista"
+      },
+      {
+        "id": 79,
+        "name": "Depressão",
+        "image": "https://aimore.net/placas/placa_de_transito_A-19.jpg",
+        "alt1": "Abaulamento na Via",
+        "alt2": "Pista Rebaixada",
+        "alt3": "Área de Rebaixo"
+      },
+      {
+        "id": 80,
+        "name": "Declive Acentuado",
+        "image": "https://aimore.net/placas/placa_de_transito_A-20a.jpg",
+        "alt1": "Descida Perigosa",
+        "alt2": "Rampa Íngreme",
+        "alt3": "Inclinação para Baixo"
+      },
+      {
+        "id": 81,
+        "name": "Aclive Acentuado",
+        "image": "https://aimore.net/placas/placa_de_transito_A-20b.jpg",
+        "alt1": "Subida Perigosa",
+        "alt2": "Rampa Elevada",
+        "alt3": "Inclinação para Cima"
+      },
+      {
+        "id": 82,
+        "name": "Estreitamento de Pista ao Centro",
+        "image": "https://aimore.net/placas/placa_de_transito_A-21a.jpg",
+        "alt1": "Pista Central Reduzida",
+        "alt2": "Faixas Convergentes",
+        "alt3": "Via Apertada no Meio"
+      },
+      {
+        "id": 83,
+        "name": "Estreitamento de Pista à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-21b.jpg",
+        "alt1": "Faixa Esquerda Reduzida",
+        "alt2": "Pista Apertada à Esquerda",
+        "alt3": "Via Estreita no Lado Esquerdo"
+      },
+      {
+        "id": 84,
+        "name": "Estreitamento de Pista à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-21c.jpg",
+        "alt1": "Faixa Direita Reduzida",
+        "alt2": "Pista Apertada à Direita",
+        "alt3": "Via Estreita no Lado Direito"
+      },
+      {
+        "id": 85,
+        "name": "Alargamento de Pista à Esquerda",
+        "image": "https://aimore.net/placas/placa_de_transito_A-21d.jpg",
+        "alt1": "Faixa Esquerda Ampliada",
+        "alt2": "Pista Alargada à Esquerda",
+        "alt3": "Via Expandida no Lado Esquerdo"
+      },
+      {
+        "id": 86,
+        "name": "Alargamento de Pista à Direita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-21e.jpg",
+        "alt1": "Faixa Direita Ampliada",
+        "alt2": "Pista Alargada à Direita",
+        "alt3": "Via Expandida no Lado Direito"
+      },
+      {
+        "id": 87,
+        "name": "Ponte Estreita",
+        "image": "https://aimore.net/placas/placa_de_transito_A-22.jpg",
+        "alt1": "Passagem Sobreposta Reduzida",
+        "alt2": "Largura Limitada na Ponte",
+        "alt3": "Via Suspensa Apertada"
+      },
+      {
+        "id": 88,
+        "name": "Ponte Móvel",
+        "image": "https://aimore.net/placas/placa_de_transito_A-23.jpg",
+        "alt1": "Ponte Elevadiça",
+        "alt2": "Passagem Articulada",
+        "alt3": "Estrutura de Ponte Variável"
+      },
+      {
+        "id": 89,
+        "name": "Obras",
+        "image": "https://aimore.net/placas/placa_de_transito_A-24.jpg",
+        "alt1": "Construção na Via",
+        "alt2": "Serviços de Engenharia",
+        "alt3": "Reforma da Pista"
+      },
+      {
+        "id": 90,
+        "name": "Mão Dupla Adiante",
+        "image": "https://aimore.net/placas/placa_de_transito_A-25.jpg",
+        "alt1": "Tráfego em Dois Sentidos à Frente",
+        "alt2": "Via de Mão Dupla Próxima",
+        "alt3": "Circulação Bidirecional"
+      },
+      {
+        "id": 91,
+        "name": "Sentido Único",
+        "image": "https://aimore.net/placas/placa_de_transito_A-26a.jpg",
+        "alt1": "Mão Única de Direção",
+        "alt2": "Tráfego Unidirecional",
+        "alt3": "Via de Sentido Exclusivo"
+      },
+      {
+        "id": 92,
+        "name": "Sentido Duplo",
+        "image": "https://aimore.net/placas/placa_de_transito_A-26b.jpg",
+        "alt1": "Mão Dupla de Direção",
+        "alt2": "Tráfego Bidirecional",
+        "alt3": "Via de Dois Sentidos"
+      },
+      {
+        "id": 93,
+        "name": "Área com Desmoronamento",
+        "image": "https://aimore.net/placas/placa_de_transito_A-27.jpg",
+        "alt1": "Risco de Deslizamento",
+        "alt2": "Terreno Instável",
+        "alt3": "Erosão na Via"
+      },
+      {
+        "id": 94,
+        "name": "Pista Escorregadia",
+        "image": "https://aimore.net/placas/placa_de_transito_A-28.jpg",
+        "alt1": "Pavimento Liso",
+        "alt2": "Superfície Derrapante",
+        "alt3": "Pista com Pouco Atrito"
+      },
+      {
+        "id": 95,
+        "name": "Projeção de Cascalho",
+        "image": "https://aimore.net/placas/placa_de_transito_A-29.jpg",
+        "alt1": "Pedriscos na Pista",
+        "alt2": "Pista com Pedras Soltas",
+        "alt3": "Gravilha na Estrada"
+      },
+      {
+        "id": 96,
+        "name": "Transito de Ciclistas",
+        "image": "https://aimore.net/placas/placa_de_transito_A-30a.jpg",
+        "alt1": "Ciclovia à Frente",
+        "alt2": "Área de Bicicletas",
+        "alt3": "Compartilhamento com Ciclistas"
+      },
+      {
+        "id": 97,
+        "name": "Passagem Sinalizada de Ciclistas",
+        "image": "https://aimore.net/placas/placa_de_transito_A-30b.jpg",
+        "alt1": "Atravessamento de Bicicletas",
+        "alt2": "Cruzamento Ciclístico",
+        "alt3": "Faixa para Ciclistas"
+      },
+      {
+        "id": 98,
+        "name": "Transito Compartilhado entre Ciclistas e Pedestres",
+        "image": "https://aimore.net/placas/placa_de_transito_A-30c.jpg",
+        "alt1": "Área Mista para Pedestres e Bikes",
+        "alt2": "Ciclovia Compartilhada",
+        "alt3": "Passeio para Ciclistas e Pessoas"
+      },
+      {
+        "id": 99,
+        "name": "Transito de Tratores ou Maquinário Agrícola",
+        "image": "https://aimore.net/placas/placa_de_transito_A-31.jpg",
+        "alt1": "Veículos Rurais na Via",
+        "alt2": "Tráfego de Máquinas Agrícolas",
+        "alt3": "Equipamentos de Fazenda"
+      },
+      {
+        "id": 100,
+        "name": "Transito de Pedestres",
+        "image": "https://aimore.net/placas/placa_de_transito_A-32a.jpg",
+        "alt1": "Área de Travessia de Pessoas",
+        "alt2": "Passeio Público",
+        "alt3": "Faixa de Pedestres"
+      },
+      {
+        "id": 101,
+        "name": "Passagem Sinalizada de Pedestres",
+        "image": "https://aimore.net/placas/placa_de_transito_A-32b.jpg",
+        "alt1": "Atravessamento de Pessoas",
+        "alt2": "Cruzamento Pedonal",
+        "alt3": "Faixa para Pedestres"
+      },
+      {
+        "id": 102,
+        "name": "Área Escolar",
+        "image": "https://aimore.net/placas/placa_de_transito_A-33a.jpg",
+        "alt1": "Próximo a Escola",
+        "alt2": "Zona de Colégio",
+        "alt3": "Vizinhança Educacional"
+      },
+      {
+        "id": 103,
+        "name": "Passagem Sinalizada de Escolares",
+        "image": "https://aimore.net/placas/placa_de_transito_A-33b.jpg",
+        "alt1": "Atravessamento de Estudantes",
+        "alt2": "Cruzamento de Alunos",
+        "alt3": "Faixa Escolar"
+      },
+      {
+        "id": 104,
+        "name": "Crianças",
+        "image": "https://aimore.net/placas/placa_de_transito_A-34.jpg",
+        "alt1": "Presença de Meninos",
+        "alt2": "Zona Infantil",
+        "alt3": "Área de Crianças"
+      },
+      {
+        "id": 105,
+        "name": "Animais",
+        "image": "https://aimore.net/placas/placa_de_transito_A-35.jpg",
+        "alt1": "Animais Domésticos na Via",
+        "alt2": "Passagem de Bichos",
+        "alt3": "Tráfego Animal"
+      },
+      {
+        "id": 106,
+        "name": "Animais Selvagens",
+        "image": "https://aimore.net/placas/placa_de_transito_A-36.jpg",
+        "alt1": "Fauna na Pista",
+        "alt2": "Passagem de Animais Silvestres",
+        "alt3": "Cruzamento de Bichos Selvagens"
+      },
+      {
+        "id": 107,
+        "name": "Altura Limitada",
+        "image": "https://aimore.net/placas/placa_de_transito_A-37.jpg",
+        "alt1": "Restrição Vertical",
+        "alt2": "Teto Máximo",
+        "alt3": "Limite de Elevação"
+      },
+      {
+        "id": 108,
+        "name": "Largura Limitada",
+        "image": "https://aimore.net/placas/placa_de_transito_A-38.jpg",
+        "alt1": "Restrição Horizontal",
+        "alt2": "Espaço Lateral Máximo",
+        "alt3": "Limite de Largura"
+      },
+      {
+        "id": 109,
+        "name": "Passagem de Nivel sem Barreira",
+        "image": "https://aimore.net/placas/placa_de_transito_A-39.jpg",
+        "alt1": "Cruzamento Ferroviário Aberto",
+        "alt2": "Trilhos sem Cancela",
+        "alt3": "Passagem Livre de Trem"
+      },
+      {
+        "id": 110,
+        "name": "Passagem de Nivel com Barreira",
+        "image": "https://aimore.net/placas/placa_de_transito_A-40.jpg",
+        "alt1": "Cruzamento Ferroviário Fechado",
+        "alt2": "Trilhos com Cancela",
+        "alt3": "Passagem Controlada de Trem"
+      },
+      {
+        "id": 111,
+        "name": "Cruz de Santo André",
+        "image": "https://aimore.net/placas/placa_de_transito_A-41.jpg",
+        "alt1": "Símbolo Ferroviário",
+        "alt2": "Placa de Alerta de Trem",
+        "alt3": "Marca de Passagem de Nível"
+      },
+      {
+        "id": 112,
+        "name": "Inicio de Pista Dupla",
+        "image": "https://aimore.net/placas/placa_de_transito_A-42a.jpg",
+        "alt1": "Divisão de Faixas",
+        "alt2": "Separação de Pistas",
+        "alt3": "Via Dupla à Frente"
+      },
+      {
+        "id": 113,
+        "name": "Fim de Pista Dupla",
+        "image": "https://aimore.net/placas/placa_de_transito_A-42b.jpg",
+        "alt1": "Unificação de Faixas",
+        "alt2": "Término de Pistas Separadas",
+        "alt3": "Via Única à Frente"
+      },
+      {
+        "id": 114,
+        "name": "Pista Dividida",
+        "image": "https://aimore.net/placas/placa_de_transito_A-42c.jpg",
+        "alt1": "Separação Física de Faixas",
+        "alt2": "Barreira Central na Via",
+        "alt3": "Divisão de Tráfego"
+      },
+      {
+        "id": 115,
+        "name": "Aeroporto",
+        "image": "https://aimore.net/placas/placa_de_transito_A-43.jpg",
+        "alt1": "Zona de Aterrissagem",
+        "alt2": "Próximo a Pista de Pouso",
+        "alt3": "Área de Aviação"
+      },
+      {
+        "id": 116,
+        "name": "Vento Lateral",
+        "image": "https://aimore.net/placas/placa_de_transito_A-44.jpg",
+        "alt1": "Rajadas de Vento",
+        "alt2": "Força do Vento na Via",
+        "alt3": "Condições Climáticas Adversas"
+      },
+      {
+        "id": 117,
+        "name": "Rua sem Saída",
+        "image": "https://aimore.net/placas/placa_de_transito_A-45.jpg",
+        "alt1": "Via sem Continuidade",
+        "alt2": "Fim da Rua",
+        "alt3": "Término do Caminho"
+      },
+      {
+        "id": 118,
+        "name": "Peso Bruto Total Limitado",
+        "image": "https://aimore.net/placas/placa_de_transito_A-46.jpg",
+        "alt1": "Restrição de Carga",
+        "alt2": "Massa Máxima do Veículo",
+        "alt3": "Peso Total Permitido"
+      },
+      {
+        "id": 119,
+        "name": "Peso Limitado por Eixo",
+        "image": "https://aimore.net/placas/placa_de_transito_A-47.jpg",
+        "alt1": "Carga Axial Máxima",
+        "alt2": "Restrição por Eixo",
+        "alt3": "Peso por Conjunto de Rodas"
+      },
+      {
+        "id": 120,
+        "name": "Comprimento Limitado",
+        "image": "https://aimore.net/placas/placa_de_transito_A-48.jpg",
+        "alt1": "Tamanho Máximo do Veículo",
+        "alt2": "Restrição de Extensão",
+        "alt3": "Limite de Dimensão Longitudinal"
+      }
+    ]
+  }
+  

@@ -1,0 +1,240 @@
+:root {
+  --branco: #fff6fb;
+  --branco2: #fdfafc;
+  --branco3: #ebe3e7;
+  --preto: #04000c;
+  --cinza: #999999;
+  --cinza2: #535353;
+  --vermelho: #bb2035;
+  --vermelho2: #811c2a;
+  --laranja: #cf432a;
+  --laranja2: #9e2814;
+  --laranja3: #d87236;
+  --amarelo: #e6e210;
+  --amarelo2: #e6c610;
+  --amarelo3: #e9dd6e;
+  --azul: #3973f0;
+  --azul2: #2f2fd4;
+  --azul3: #444c6e;
+  --azul4: #293050;
+  --rosa: #e66ccb;
+  --roxo: #7a30e9;
+  --roxo2: #5314b3;
+  --roxo3: #0b001b;
+  --verde: #27eb68;
+  --verde2: #20aa50;
+  --verde3: #71e096;
+
+  font-family: Poppins;
+  font-size: 60%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background: fixed;
+  background-image: url(https://c.wallhere.com/photos/7c/d1/1920x1080_px_Asphalt_bokeh_city_Depth_Of_Field_New_York_City_rain_reflection-1288349.jpg!d);
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: multiply;
+  filter: 
+    saturate(2.5)
+    contrast(1.15);
+}
+
+.game {
+  width: 100%;
+  min-height: 85vh;
+  padding: 2rem 1rem;
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.scores {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: 700;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bestScore {
+  color: var(--amarelo2);
+}
+
+.bestScore i {
+  margin-right: 0.5rem;
+}
+
+.sign {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign img {
+  margin: 1.5rem 0;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px var(--roxo3);
+}
+
+.loading {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: var(--cinza);
+  text-align: center;
+}
+
+.option, .right, .wrong {
+  width: 90%;
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.option {
+  background: var(--azul3);
+  color: var(--branco);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option:hover {
+  transform: scale(0.98);
+  box-shadow: 0 0 10px var(--branco);
+  background: var(--azul4);
+}
+
+.right {
+  background: var(--verde3);
+  color: var(--branco);
+  transform: scale(1.02);
+}
+
+.wrong {
+  background: var(--vermelho);
+  color: var(--branco);
+  transform: scale(0.98);
+}
+
+.next {
+  width: 60%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--roxo);
+  color: var(--branco);
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.next:hover {
+  transform: scale(0.95);
+  background: var(--roxo2);
+}
+
+@media (min-width: 600px) {
+  .game {
+    padding: 2rem;
+  }
+  
+  .game h1 {
+    font-size: 3rem;
+  }
+  
+  .scores {
+    font-size: 2rem;
+  }
+  
+  .sign img {
+    max-height: 250px;
+  }
+  
+  .option, .right, .wrong {
+    width: 70%;
+    font-size: 2rem;
+  }
+  
+  .next {
+    width: 40%;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .game {
+    padding: 2rem 10rem;
+  }
+  
+  .game h1 {
+    font-size: 4rem;
+  }
+  
+  .scores {
+    font-size: 2.5rem;
+  }
+  
+  .sign img {
+    max-height: 300px;
+  }
+  
+  .option, .right, .wrong {
+    width: 50%;
+    font-size: 2.5rem;
+  }
+  
+  .next {
+    width: 30%;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .game {
+    padding: 2rem 25rem;
+  }
+  
+  .game h1 {
+    font-size: 5rem;
+  }
+  
+  .scores {
+    font-size: 3rem;
+  }
+  
+  .option, .right, .wrong {
+    width: 45%;
+    font-size: 3rem;
+  }
+  
+  .next {
+    width: 20%;
+    font-size: 3rem;
+  }
+}
