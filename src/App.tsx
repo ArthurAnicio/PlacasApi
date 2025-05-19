@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import json from '../public/placas.json';
+import right from '../public/right.mp3';
+import wrong from '../public/wrong.mp3';
 
 type Placa = {
   name: string;
@@ -19,9 +21,18 @@ function App() {
     Number(localStorage.getItem('bestScore')) || 0
   );
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [correctAudio] = useState(new Audio(right));
+  const [wrongAudio] = useState(new Audio(wrong));
 
   useEffect(() => {
     generateNewRound();
+
+    correctAudio.volume = 0.3;
+    wrongAudio.volume = 0.3;
+    return () => {
+      correctAudio.pause();
+      wrongAudio.pause();
+    };
   }, []);
 
   function getRandomSign<T>(array: T[]): T {
@@ -44,6 +55,9 @@ function App() {
     if (selected !== null) return;
     setSelected(option);
     if (option === actualSign?.name) {
+      correctAudio.currentTime = 0;
+      correctAudio.play();
+
       const newScore = actualScore + 1;
       setActualScore(newScore);
       if (newScore > bestScore) {
@@ -51,6 +65,8 @@ function App() {
         localStorage.setItem('bestScore', String(newScore));
       }
     } else {
+      wrongAudio.currentTime = 0;
+      wrongAudio.play();
       setActualScore(0);
     }
   }
